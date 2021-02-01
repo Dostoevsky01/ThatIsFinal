@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.RecyclerView6">
 
     <application
@@ -9,7 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/RecyclerView6">
-        <activity android:name="com.RecyclerView6.RecyclerView6.MainActivity">
+        <activity android:name="com.RecyclerView6.RecyclerView6.FirebaseActivity.PasswordChangeActivity" />
+        <activity android:name="com.RecyclerView6.RecyclerView6.FirebaseActivity.ResetActivity" />
+        <activity android:name="com.RecyclerView6.RecyclerView6.FirebaseActivity.RegisterActivity" />
+        <activity android:name="com.RecyclerView6.RecyclerView6.MainWork.MainActivity4"/>
+        <activity android:name="com.RecyclerView6.RecyclerView6.MainWork.MainActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.RecyclerView6.RecyclerView6.MainWork.Pictures"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.RecyclerView6.RecyclerView6.FirebaseActivity.MainActivity2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

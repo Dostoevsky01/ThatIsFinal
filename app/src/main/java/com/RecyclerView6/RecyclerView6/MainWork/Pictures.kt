@@ -1,4 +1,4 @@
-package com.RecyclerView6.RecyclerView6
+package com.RecyclerView6.RecyclerView6.MainWork
 
 data class Pictures(
 

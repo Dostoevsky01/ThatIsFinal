@@ -1,4 +1,4 @@
-package com.RecyclerView6.RecyclerView6
+package com.RecyclerView6.RecyclerView6.MainWork
 
 import android.view.LayoutInflater
 import android.view.View
